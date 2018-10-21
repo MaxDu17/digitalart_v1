@@ -18,11 +18,13 @@ model.load_graphdef()
 
 content_image = load("https://storage.googleapis.com/tensorflow-lucid/static/img/notebook-styletransfer-bigben.jpg")
 style_image = load("https://storage.googleapis.com/tensorflow-lucid/static/img/starry-night.png")[..., :3] # removes transparency channel
-
+save(content_image, ".")
+save(style_image, ".")
 print(content_image.shape, style_image.shape)
 save(style_image, "C:/Users/wedu/Desktop/Working Repository/lucid/notebooks/differentiable-parameterizations/test.jpg")
 show(content_image)
 show(style_image)
+tf.test.is_gpu_available()
 
 style_layers = [
   'conv2d2',
@@ -90,5 +92,4 @@ objective = - content_obj - style_obj
 
 vis = render.render_vis(model, objective, param_f=param_f, thresholds=[512], verbose=False, print_objectives=[content_obj, style_obj])[-1]
 
-show(vis)
-
+save(vis, ".")
