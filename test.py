@@ -15,7 +15,7 @@ from lucid.optvis.objectives import wrap_objective
 
 model = vision_models.InceptionV1()
 model.load_graphdef()
-
+tf.test.is_gpu_available()
 content_image = load("https://storage.googleapis.com/tensorflow-lucid/static/img/notebook-styletransfer-bigben.jpg")
 style_image = load("https://storage.googleapis.com/tensorflow-lucid/static/img/starry-night.png")[..., :3] # removes transparency channel
 save(content_image, "./bigben.jpg")
@@ -24,7 +24,7 @@ print(content_image.shape, style_image.shape)
 save(style_image, "C:/Users/wedu/Desktop/Working Repository/lucid/notebooks/differentiable-parameterizations/test.jpg")
 show(content_image)
 show(style_image)
-tf.test.is_gpu_available()
+
 
 style_layers = [
   'conv2d2',
@@ -48,6 +48,8 @@ def style_transfer_param(content_image, style_image, decorrelate=True, fft=True)
 TRANSFER_INDEX = 0
 CONTENT_INDEX = 1
 STYLE_INDEX = 2
+
+print(style_transfer_param(content_image, style_image).shape)
 
 def mean_L1(a, b):
   return tf.reduce_mean(tf.abs(a-b))
@@ -90,6 +92,7 @@ style_obj.description = "Style Loss"
 
 objective = - content_obj - style_obj
 
-vis = render.render_vis(model, objective, param_f=param_f, thresholds=[512], verbose=False, print_objectives=[content_obj, style_obj])[-1]
+vis = render.render_vis(model, objective, param_f=param_f, thresholds=[512], verbose=True, print_objectives=[content_obj, style_obj])[-1]
+show(vis)
 
-save(vis, "./combined.jpg")
+save(vis[0], "./combined.jpg")
