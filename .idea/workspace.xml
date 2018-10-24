@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c4f9426-c8bd-47f8-9ae7-023414975c59" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beach.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigben.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catrose.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/combined.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/combined_beach.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/combined_catrose.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/myown.py" beforeDir="false" afterPath="$PROJECT_DIR$/myown.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star_high.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,12 +30,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="336" />
+          <entry key="py" value="350" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="336" />
+          <entry key="Python" value="350" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -56,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myown.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+            <state relative-caret-position="437">
+              <caret line="96" column="37" lean-forward="true" selection-start-line="96" selection-start-column="37" selection-end-line="96" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -284,8 +274,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myown.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+        <state relative-caret-position="437">
+          <caret line="96" column="37" lean-forward="true" selection-start-line="96" selection-start-column="37" selection-end-line="96" selection-end-column="37" />
         </state>
       </provider>
     </entry>
