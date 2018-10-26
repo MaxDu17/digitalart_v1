@@ -16,7 +16,7 @@ from lucid.optvis.objectives import wrap_objective
 model = vision_models.InceptionV1()
 model.load_graphdef()
 tf.test.is_gpu_available()
-content_image = load("./beach_fake.jpg")
+content_image = load("./beach_fake_res.jpg")
 style_image = load("./picasso_.jpg") # removes transparency channel
 #save(content_image, "./bigben.jpg")
 #save(style_image, "./star.jpg")
