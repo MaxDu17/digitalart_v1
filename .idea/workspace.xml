@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c4f9426-c8bd-47f8-9ae7-023414975c59" name="Default Changelist" comment="" />
+    <list default="true" id="8c4f9426-c8bd-47f8-9ae7-023414975c59" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beach_1.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/beach_fake_res.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/combined_beach_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/combined_beach_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/combined_beach_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/flower.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mandre1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myown.py" beforeDir="false" afterPath="$PROJECT_DIR$/myown.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/beach.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/bigben.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/catrose.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/combined.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/combined_beach.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/combined_catrose.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/ninthwave.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/star.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/star_high.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/picasso_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/water.JPG" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,12 +50,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="391" />
+          <entry key="py" value="426" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="391" />
+          <entry key="Python" value="426" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -44,8 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myown.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="89" column="36" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="36" />
+            <state relative-caret-position="342">
+              <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -184,6 +206,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.03251599" />
@@ -271,8 +294,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myown.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="89" column="36" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="36" />
+        <state relative-caret-position="342">
+          <caret line="29" column="12" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
         </state>
       </provider>
     </entry>
