@@ -94,4 +94,4 @@ objective = - content_obj - style_obj
 vis = render.render_vis(model, objective, param_f=param_f, thresholds=[512], verbose=True, print_objectives=[content_obj, style_obj])[-1]
 show(vis)
 
-save(vis[0], "./combinedbeach_5.jpg")
+save(vis[0], "./combinedbeach_6.jpg")
