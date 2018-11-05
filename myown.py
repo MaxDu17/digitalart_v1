@@ -17,7 +17,7 @@ model = vision_models.InceptionV1()
 model.load_graphdef()
 tf.test.is_gpu_available()
 content_image = load("./beach_fake.jpg")
-style_image = load("./trip5.jpg") # removes transparency channel
+style_image = load("./myown.jpg") # removes transparency channel
 #save(content_image, "./bigben.jpg")
 #save(style_image, "./star.jpg")
 print(content_image.shape, style_image.shape)
