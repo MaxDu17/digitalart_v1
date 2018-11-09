@@ -17,7 +17,7 @@ model = vision_models.InceptionV1()
 model.load_graphdef()
 tf.test.is_gpu_available()
 content_image = load("./beach_fake.jpg")
-style_image = load("./reflect.jpg") # removes transparency channel
+style_image = load("./doodle.jpg") # removes transparency channel
 #save(content_image, "./bigben.jpg")
 #save(style_image, "./star.jpg")
 print(content_image.shape, style_image.shape)
@@ -94,4 +94,4 @@ objective = - content_obj - style_obj
 vis = render.render_vis(model, objective, param_f=param_f, thresholds=[512], verbose=True, print_objectives=[content_obj, style_obj])[-1]
 show(vis)
 
-save(vis[0], "./combinedbeach_reflect.jpg")
+save(vis[0], "./combinedbeach_doodle.jpg")
