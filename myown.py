@@ -16,8 +16,8 @@ from lucid.optvis.objectives import wrap_objective
 model = vision_models.InceptionV1()
 model.load_graphdef()
 tf.test.is_gpu_available()
-content_image = load("pictures/cat.jpg")
-style_image = load("templates/trip2.jpg") # removes transparency channel
+content_image = load("pictures/cat_.jpg")
+style_image = load("templates/boat.jpg") # removes transparency channel
 #save(content_image, "./bigben.jpg")
 #save(style_image, "./star.jpg")
 print(content_image.shape, style_image.shape)
@@ -94,4 +94,4 @@ objective = - content_obj - style_obj
 vis = render.render_vis(model, objective, param_f=param_f, thresholds=[512], verbose=True, print_objectives=[content_obj, style_obj])[-1]
 show(vis)
 
-save(vis[0], "./rose_pattern4.jpg")
+save(vis[0], "./cat__boat.jpg")
